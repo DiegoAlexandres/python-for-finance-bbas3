@@ -1,13 +1,13 @@
 import pandas as pd
 import yfinance as yf
 
-#Extraindo os dados da Transmissão Paulista do Yahoo Finance
-trpl4 = yf.Ticker('BBAS3.SA')
-historico = trpl4.history(period= '5y')
+#Extraindo os dados do Banco do Brasil do Yahoo Finance
+bbas3 = yf.Ticker('BBAS3.SA')
+historico = bbas3.history(period= '5y')
 print(historico)
 
 #Extraindo os historico de dividendos dos  ultimos 5 anos
-dividendos = trpl4.dividends
+dividendos = bbas3.dividends
 dados = pd.DataFrame(dividendos).reset_index()
 print(dados)
 
