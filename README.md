@@ -1,1 +1,1 @@
-# python-for-finance-bbas3
+# Análise da ação da Banco do Brasil BBAS3
