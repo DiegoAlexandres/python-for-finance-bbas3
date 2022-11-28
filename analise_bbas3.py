@@ -25,7 +25,7 @@ def preco_teto(pagamento_medio, dividendos_esperado):
 preco_teto(pagamento_medio, 0.08)
 
 #Conclusão da análise
-preco_teto_da_acao = 34.20
-preco_atual = 26.43
+preco_teto_da_acao = 26.43
+preco_atual = 34.21
 
-# O preço atual da ação está menor que o preço teto considerando 8% de retorno anual
+# O preço atual da ação está maior que o preço teto considerando 8% de retorno anual
